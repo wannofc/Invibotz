@@ -68,6 +68,7 @@ nocache('../message/group.js', module => console.log(color('[WATCH]', 'yellow'),
 
 const starts = async (wann = new WAConnection()) => {
 	wann.logger.level = 'warn'
+	wann.version = [3, 3234, 9]
 	
 console.log(color(figlet.textSync('INVI BOT', {
 
